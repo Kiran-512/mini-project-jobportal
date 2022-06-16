@@ -1,4 +1,5 @@
-//toggle between 
+
+    //toggle between 
 
 //=========== menu option ===========
 const menu_toggle = document.getElementById("menu_toggle");
@@ -35,7 +36,5 @@ login_bar.addEventListener("click",()=>{
 //     $('#reg-bar').click(()=>{ $('#reg_new_user').toggle(1000);
 //     })
 // })
-
-
 
 })

@@ -47,9 +47,6 @@ a{
  .nav_menu .row ul li a:hover{
     color: rgb(132, 165, 194);
  }
-.search_job_header .job_search{
-    margin-top: 100px;
-}
 /* ================= Main ================= */
 
 /* =============== features ================= */
@@ -93,10 +90,28 @@ a{
     transform: scale(1);
     border-radius: 10px;
 }
-/*  =========== login page ===========  */
-#login-page{
-    padding-top:130px ;
+/* =========== contact page ========= */
+.contact_row .map{
+    background: transparent;
+    padding: 20px;
 }
+.contact_form{
+    padding: 25px;
+}
+.contact_form input, .contact_form textarea{
+    background:transparent;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.contact_form input::placeholder, .contact_form textarea::placeholder{
+    color: aliceblue;
+}
+.contact_form input:focus, .contact_form textarea:focus{
+    background: transparent;
+    color: #fff;
+}
+/*  =========== login page ===========  */
+
 #login-page .row .col-md-4{
     background-color: rgba(240, 238, 238,.2);
 } 
@@ -135,6 +150,91 @@ a{
     color: #fff;
 }
 
+ /* ========= common properties ============= */
+.search_job_header{
+    padding-top: 100px;
+}
+ .breakcrum_row{
+    font: 900;
+    font-size: 2rem;
+    /* border: 1px solid red; */
+ }
+ /* ========= about ============= */
+ .about_row{
+    background-color: rgba(183, 215, 215,.6);
+    color: rgb(35, 31, 31);
+    border-radius: 5px;
+ }
+ .about_img{
+    margin-top: 15px;
+}
+.about_img img{
+    border-radius: 30px;
+ }
+.test_img{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+.test_heading + .col-md-4 h2 strong{
+    color: rgb(60, 53, 53);
+    font: lighter;
+}
+.test_cols{
+    color: rgb(40, 51, 61);
+}
+.test_img img{
+    border-radius: 25px;
+}
+.test_Desc{
+    text-align: center;
+}
+.test_name{
+    text-align: center;
+}
+ 
+#straticstics{
+    padding: 50px;
+    background: url("../img/statistics.jpg");
+    color: rgb(37, 44, 44);
+}
+#newsletter{
+    background-color: rgb(100, 223, 182);
+    padding: 40px;
+}
+.news_letter input{
+    position: relative;
+}
+.news_letter input:after{
+    content: "Subscribe";
+    position: absolute;
+    right: 20;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(153, 18, 133);
+}
+
+
+ /* ================ blog =============== */
+.blog_cols{
+    height: 400px;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: rgba(216, 210, 210,.5);
+}
+.blog_cols img{
+       border-radius: 15px; 
+}
+.blog_cols a{
+    color: rgb(15, 100, 160);
+}
+#blogs{
+    padding-bottom: 20px;
+ }
+
+/* ============== media queries ======== */
 /* Media query */
 @media (max-width :576px){
     .navigation{
@@ -145,16 +245,6 @@ a{
         border-top: 1px solid gray;
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
-    }
-    .nav_menu .col-md-3 h3 a{
-        display: inline-block;
-    }
-    .nav_menu .col-md-3 input{
-        display: block;
-        height: 50px;
-        width: 50px;
-        /* appearance: none;            */
-        color: aqua;
     }
     .fa{
         transform: scale(1.5);
@@ -169,6 +259,32 @@ a{
     #close_menu{
         margin-right:10px
     }
+
+    .search_job_header{
+        padding-top: 30px;
+    }
+     .breakcrum_row{
+        font: 500;
+        font-size: 1rem;
+        /* border: 1px solid red; */
+     }
+     footer{
+        padding-bottom: 50px;
+     }
+
+     /* ======== about ====== */
+     .about_row{
+        margin: 10px;
+        padding: 30px;
+     }     
+
+     /* ====== blogs == */
+     .blog_cols{
+        padding: 15px;
+        margin-bottom: 10px;
+     }
+
+ 
 }
 
 
