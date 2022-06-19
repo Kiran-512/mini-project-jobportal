@@ -16,12 +16,6 @@ a{
     text-decoration: none;
     color: #fff;
 }
- /* .container{
-    border: 1px solid red;
-} */
-/* .row{
-    border: 1px solid black;
-}  */
  .navigation{
     width: 100%;
     padding: 15px;
@@ -240,11 +234,11 @@ a{
     .navigation{
         position: fixed;
         bottom: 0;
-        top: 90vh;
+        top: 91vh;
         background-color:  rgb(34, 40, 49);
         border-top: 1px solid gray;
-        border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
+        /* border-top-right-radius: 10px; */
+        /* border-top-left-radius: 10px; */
     }
     .fa{
         transform: scale(1.5);
