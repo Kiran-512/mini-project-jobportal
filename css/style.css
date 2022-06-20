@@ -41,6 +41,10 @@ a{
  .nav_menu .row ul li a:hover{
     color: rgb(132, 165, 194);
  }
+
+ .nav_bar li a:active{
+    color: red !important;
+ }
 /* ================= Main ================= */
 
 /* =============== features ================= */
