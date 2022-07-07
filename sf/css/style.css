@@ -1,0 +1,306 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+/* ============ Header ============= */
+
+#header{
+    background: url("../img/banner1.jpg") no-repeat 0 0;
+    opacity: 0.5;
+    background-size: cover;
+    color: #fff;
+    opacity: 0.9;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ .navigation{
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    background-color: rgba(34, 40, 49,0.6);
+    z-index: 1000;
+}
+.nav_menu .row ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+ }
+ .nav_menu h2 a.title{
+     display: inline-block;
+     text-align: center;
+ }
+ .nav_menu .col-md-3 input{
+     display: none;
+ }
+ .nav_menu .row ul li a:hover{
+    color: rgb(132, 165, 194);
+ }
+
+ .nav_bar li a:active{
+    color: red !important;
+ }
+/* ================= Main ================= */
+
+/* =============== features ================= */
+
+.feature{
+    text-align: center;
+}
+.fa{
+    color: rgb(70, 125, 125);
+    margin: 25px 0;
+    transform: scale(3);
+}
+.fa:hover{
+    color: rgb(43, 173, 173);
+}
+/* ============ Categories ============== */
+#category{
+    background: url(../img/categories.jpg) no-repeat 0 0;
+    background-size: cover;
+
+}
+.heading h3{
+    padding: 20px;
+    text-align: center;
+}
+
+#category .col-md-3{
+    min-height: 200px;
+    gap: 20px;
+    transform: scale(0.8);
+    transition: .5s;
+}
+#category .col-md-3 img{
+    border-radius: 10px;
+}
+#category .col-md-3 > h5{
+    text-align: center;
+    color: #fff;
+}
+#category .col-md-3:hover{
+    transform: scale(1);
+    border-radius: 10px;
+}
+/* =========== contact page ========= */
+.contact_row .map{
+    background: transparent;
+    padding: 20px;
+}
+.contact_form{
+    padding: 25px;
+}
+.contact_form input, .contact_form textarea{
+    background:transparent;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.contact_form input::placeholder, .contact_form textarea::placeholder{
+    color: aliceblue;
+}
+.contact_form input:focus, .contact_form textarea:focus{
+    background: transparent;
+    color: #fff;
+}
+/*  =========== login page ===========  */
+
+#login-page .row .col-md-4{
+    background-color: rgba(240, 238, 238,.2);
+} 
+
+#old_user_login, #reg_new_user{
+    background: rgba(42, 39, 39,0.5);
+}
+
+#login-page .lead{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+} 
+#login-page .lead:hover{
+    color: rgb(10, 91, 145);
+}
+#login-page #login-bar{
+    color: aqua;
+} 
+
+#login_page
+.col-md-4,.col-6,.col-12{
+    border-radius: 5px;
+    border: 2px ridge rgb(154, 131, 99);
+}
+#login-page-toggle{
+    overflow: hidden;
+}
+
+#login-page input{
+    background-color: rgba(229, 216, 216, 0.5);
+}
+#login-page input:focus{
+    background-color: rgb(194, 181, 181);
+}
+#login-page-toggle input[type="submit"]{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#login-page-toggle input[type="submit"]:hover {
+    background-color: aqua;
+    outline: none;
+}
+
+#login-page input::placeholder{
+    color: #fff;
+}
+
+/* =========== Footer ============== */
+#footer{
+    background-color: rgb(34, 40, 49);
+    color: #fff;
+}
+
+ /* ========= common properties ============= */
+.search_job_header{
+    padding-top: 100px;
+}
+ .breakcrum_row{
+    font: 900;
+    font-size: 2rem;
+    /* border: 1px solid red; */
+ }
+ /* ========= about ============= */
+ .about_row{
+    background-color: rgba(183, 215, 215,.6);
+    color: rgb(35, 31, 31);
+    border-radius: 5px;
+ }
+ .about_img{
+    margin-top: 15px;
+}
+.about_img img{
+    border-radius: 30px;
+ }
+.test_img{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+.test_heading + .col-md-4 h2 strong{
+    color: rgb(60, 53, 53);
+    font: lighter;
+}
+.test_cols{
+    color: rgb(40, 51, 61);
+}
+.test_img img{
+    border-radius: 25px;
+}
+.test_Desc{
+    text-align: center;
+}
+.test_name{
+    text-align: center;
+}
+ 
+#straticstics{
+    padding: 50px;
+    background: url("../img/statistics.jpg");
+    color: rgb(37, 44, 44);
+}
+#newsletter{
+    background-color: rgb(100, 223, 182);
+    padding: 40px;
+}
+.news_letter input{
+    position: relative;
+}
+.news_letter input:after{
+    content: "Subscribe";
+    position: absolute;
+    right: 20;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(153, 18, 133);
+}
+
+
+ /* ================ blog =============== */
+.blog_cols{
+    height: 400px;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: rgba(216, 210, 210,.5);
+}
+.blog_cols img{
+       border-radius: 15px; 
+}
+.blog_cols a{
+    color: rgb(15, 100, 160);
+}
+#blogs{
+    padding-bottom: 20px;
+ }
+
+/* ============== media queries ======== */
+/* Media query */
+@media (max-width :576px){
+    .navigation{
+        position: fixed;
+        bottom: 0;
+        top: 91vh;
+        background-color:  rgb(34, 40, 49);
+        border-top: 1px solid gray;
+        /* border-top-right-radius: 10px; */
+        /* border-top-left-radius: 10px; */
+    }
+    .fa{
+        transform: scale(1.5);
+    }
+    .title-bar{
+        align-items: center;
+        margin-top: -15px;
+    }
+    .nav_bar{
+     padding-left: 0px;   
+    }
+    #close_menu{
+        margin-right:10px
+    }
+
+    .search_job_header{
+        padding-top: 30px;
+    }
+     .breakcrum_row{
+        font: 500;
+        font-size: 1rem;
+        /* border: 1px solid red; */
+     }
+     footer{
+        padding-bottom: 50px;
+     }
+
+     /* ======== about ====== */
+     .about_row{
+        margin: 10px;
+        padding: 30px;
+     }     
+
+     /* ====== blogs == */
+     .blog_cols{
+        padding: 15px;
+        margin-bottom: 10px;
+     }
+
+ 
+}
+
+
+

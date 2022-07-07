@@ -1,0 +1,23 @@
+{
+  "name": "mini-project-jobportal",
+  "version": "1.0.0",
+  "description": "Checkout live here : https://kiran-512.github.io/mini-project-jobportal/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiran-512/mini-project-jobportal.git"
+  },
+  "author": "Kiran and Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiran-512/mini-project-jobportal/issues"
+  },
+  "homepage": "https://github.com/Kiran-512/mini-project-jobportal#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
